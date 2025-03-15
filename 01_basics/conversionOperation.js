@@ -1,3 +1,5 @@
+
+ /*                          conversion                                                */
 let score = "33abc"
 
 let valueInNumber = Number(score)
@@ -21,7 +23,11 @@ let stringval = 43
 
 let stringIn = String(stringval)
 
-console.log(typeof stringIn)
-console.log(stringIn)
+// console.log(typeof stringIn)
+// console.log(stringIn)
 
+/*                                       operation                                            */
+
+let value = 3
+let negValue = -value
 

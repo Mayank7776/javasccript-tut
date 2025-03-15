@@ -20,3 +20,24 @@ let isLockedIn = true
 
 // console.log(typeof undefined)
 
+// Primative and non - primative data types
+
+// there are 7 types which are primative also know as call by value
+// string
+// number
+// undefined
+// symbol
+// boolean
+// null
+// bigint
+
+// non - primative of reference type 
+// array = ["", "", ""]
+// function (){
+// }
+// object = {
+//  name: "",
+// }
+
+
+// javascript is a dynamically typed language

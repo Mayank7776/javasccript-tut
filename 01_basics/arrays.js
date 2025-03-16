@@ -1,7 +1,6 @@
 // array always create a shallow copy
 
 let a = [1,2,3,4,5,6]
-let hero = ["ironman", "captainAmerica"]
 
 // Arrays method 
 // a.push(7)
@@ -29,9 +28,34 @@ let hero = ["ironman", "captainAmerica"]
 let myArr = [0,1,2,3,4,5,6]
 
 //  slice only get the element fromm given range
-console.log(myArr.slice(1,4))
-console.log(myArr)
+// console.log(myArr.slice(1,4))
+// console.log(myArr)
 
 // splice break the array into two portion 
-console.log(myArr.splice(0,4))
-console.log(myArr)
+// console.log(myArr.splice(0,4))
+// console.log(myArr)
+
+
+let hero = ["ironman", "captainAmerica", "thor"]
+let dc = ["superman", "flash"]
+
+// what push do push add another array as a element inside the hero array
+// hero.push(dc)
+// console.log(hero)
+
+// concat add the element of dc array and hero array in new array
+// let newArr = hero.concat(dc)
+// console.log(newArr)
+
+// by using spread operator which is used to make all element individual in array
+const allHero = [...hero, ...dc];
+console.log(allHero)
+
+// flat used to spread all array
+const anotherArr = [1,2,3,[4,5,6],8,[1,2,3,4,[4,3]]]
+const arr = anotherArr.flat(Infinity)
+console.log(arr)
+
+// another way of creating a array
+console.log(Array.from('Mayank'))
+console.log(Array.of(a, myArr))
